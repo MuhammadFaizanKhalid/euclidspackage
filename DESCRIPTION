@@ -1,0 +1,11 @@
+Package: euclidspackage
+Type: Package
+Title: Calculate GCD for two numbers using euclidean algorithm
+Version: 0.1.0
+Author: Muhammad Faizan Khalid
+Maintainer: Muhammad Faizan Khalid <muhkh280@student.liu.se>
+Description: Package has 1 function which calculate GCD according to euclidean algorithm by taking two parameters.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
