@@ -8,6 +8,7 @@
 #' @examples
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
+#' @export
 euclidean <- function(num1, num2){
   if(!is.numeric(num1) && !is.numeric(num2)){
     if(!is.integer(num1) && !is.integer(num2)){
