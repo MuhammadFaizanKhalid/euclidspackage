@@ -1,3 +1,4 @@
+
 context("euclidean")
 
 test_that("GDC is calculated correctly.", {

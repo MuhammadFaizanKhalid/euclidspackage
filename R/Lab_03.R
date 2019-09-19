@@ -35,6 +35,6 @@ euclidean <- function(num1, num2){
     rem <- a%%b
     i <- rem
   }
-  return(b)
+  return(abs(b))
 }
 
