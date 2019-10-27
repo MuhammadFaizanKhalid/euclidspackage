@@ -29,14 +29,14 @@ dijkstra = function(graph, init_node) {
   while (nrow(vertices[!vertices$Visited,]) > 0) {
     for (i in 1:nrow(graph)) {
       if (graph[i, 1] == current_vertex && !vertices[vertices$Edge == graph[i, 2], 2]) {
-        tentative.distance = graph[i, 3] + vertices[vertices$Edge == current_vert, 3]
+        tentative.distance = graph[i, 3] + vertices[vertices$Edge == current_vertex, 3]
         if (tentative.distance < vertices[vertices$Edge == graph[i, 2], 3]) {
           vertices[vertices$Edge == graph[i, 2], 3] = tentative.distance
         }
       }
     }
 
-    vertices[vertices$Edge == current_vert, 2] = TRUE
+    vertices[vertices$Edge == current_vertex, 2] = TRUE
 
     unvisited.vertices = vertices[vertices$Visited == FALSE,]
     if (length(unvisited.vertices[, 3]) != 0) {
