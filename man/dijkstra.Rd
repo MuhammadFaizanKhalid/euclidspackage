@@ -20,8 +20,8 @@ Dijkstra Algorithm
 Returns the shortest path from initial vertex to other vertexes
 }
 \examples{
-dijkstra(wiki_graph, 1)
-dijkstra(wiki_graph, 3)
+dijkstra(wiki_data, 1)
+dijkstra(wiki_data, 3)
 
 }
 \references{

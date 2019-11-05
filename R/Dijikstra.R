@@ -8,8 +8,8 @@
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 #'
 #' @examples
-#' dijkstra(wiki_graph, 1)
-#' dijkstra(wiki_graph, 3)
+#' dijkstra(wiki_data, 1)
+#' dijkstra(wiki_data, 3)
 #'
 #' @export
 dijkstra = function(graph, init_node) {
