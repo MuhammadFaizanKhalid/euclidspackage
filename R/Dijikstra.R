@@ -10,7 +10,6 @@
 #' @examples
 #' dijkstra(wiki_data, 1)
 #' dijkstra(wiki_data, 3)
-#'
 #' @export
 dijkstra = function(graph, init_node) {
 
